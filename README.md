@@ -31,7 +31,7 @@ Der Befehl `npm run build` erstellt ein produktionsfertiges Bundle im Ordner `di
 
 ## GitHub Pages Deployment
 
-1. Aktivieren Sie GitHub Pages für dieses Repository unter **Settings → Pages** und wählen Sie `GitHub Actions` als Quelle.
+1. Aktivieren Sie GitHub Pages für dieses Repository unter **Settings → Pages** und wählen Sie `GitHub Actions` als Quelle (dieser Schritt muss einmalig manuell erfolgen, da der Workflow keine Admin-Rechte besitzt).
 2. Pushen Sie den Code auf GitHub – der Workflow `.github/workflows/deploy.yml` baut das Projekt und veröffentlicht es auf dem `gh-pages`-Branch.
 3. Die Seite ist anschließend unter `https://<ihr-user>.github.io/wasm-nt/` erreichbar.
 
